@@ -1,0 +1,31 @@
+::-webkit-scrollbar{
+    display:none;
+}
+
+.mainbox{
+    display:flex;
+    justify-content:space-evenly;
+   
+    gap:50px;
+    background-color:grey;
+    padding:40px;
+    width:80vw;
+    height:60vh;
+}
+    
+    .available{
+        background-color:green;
+        /* display:flex;
+        flex-direction:column; */
+        /* padding: 45px; */
+        font-size: 20px;
+        color: aliceblue;
+    }
+    .unavailable{
+        background-color:red;
+        /* display:flex;
+        flex-direction:column; */
+        /* padding:45px; */
+        font-size: 20px;
+        color: black;
+    }
